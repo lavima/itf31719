@@ -14,4 +14,15 @@ subimage3 = image[center_vertical:height,0:center_horizontal]
 subimage4 = image[center_vertical:height,center_horizontal:width]
 
 io.imshow(image) 
-io.show
+io.show()
+io.imshow(subimage1) 
+io.show()
+io.imshow(subimage2) 
+io.show()
+io.imshow(subimage3) 
+io.show()
+io.imshow(subimage4) 
+io.show()
+
+#Assigment 3
+io.imsave("lena_sub1.png", subimage1)
