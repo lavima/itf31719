@@ -10,5 +10,8 @@ center_horizontal = width // 2
 
 subimage1 = image[0:center_vertical,0:center_horizontal]
 subimage2 = image[0:center_vertical,center_horizontal:width]
+subimage3 = image[center_vertical:height,0:center_horizontal]
+subimage4 = image[center_vertical:height,center_horizontal:width]
 
-#io.imshow, io.show
+io.imshow(image) 
+io.show
